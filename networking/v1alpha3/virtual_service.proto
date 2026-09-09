@@ -500,7 +500,6 @@ message HTTPRoute {
   // Header manipulation rules
   Headers headers = 16;
 
-  // $hide_from_docs
   // Session persistence settings for this HTTP route. When configured, the
   // selected destination is retained for subsequent requests in the same
   // session. This applies to every destination in this route, while
