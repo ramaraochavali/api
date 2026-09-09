@@ -839,7 +839,6 @@ type HTTPRoute struct {
 	CorsPolicy *CorsPolicy `protobuf:"bytes,10,opt,name=cors_policy,json=corsPolicy,proto3" json:"cors_policy,omitempty"`
 	// Header manipulation rules
 	Headers *Headers `protobuf:"bytes,16,opt,name=headers,proto3" json:"headers,omitempty"`
-	// $hide_from_docs
 	// Session persistence settings for this HTTP route. When configured, the
 	// selected destination is retained for subsequent requests in the same
 	// session. This applies to every destination in this route, while

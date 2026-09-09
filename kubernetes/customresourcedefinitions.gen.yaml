@@ -13336,6 +13336,7 @@ spec:
                         type: object
                       type: array
                     sessionPersistence:
+                      description: Session persistence settings for this HTTP route.
                       properties:
                         absoluteTimeout:
                           description: Absolute timeout of the persistent session.
@@ -14446,6 +14447,7 @@ spec:
                         type: object
                       type: array
                     sessionPersistence:
+                      description: Session persistence settings for this HTTP route.
                       properties:
                         absoluteTimeout:
                           description: Absolute timeout of the persistent session.
@@ -15556,6 +15558,7 @@ spec:
                         type: object
                       type: array
                     sessionPersistence:
+                      description: Session persistence settings for this HTTP route.
                       properties:
                         absoluteTimeout:
                           description: Absolute timeout of the persistent session.
